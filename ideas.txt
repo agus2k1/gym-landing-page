@@ -1,0 +1,21 @@
+- Homepage de un gimnasio
+
+Componentes:
+- Menu de navegacion superior
+- Formulario al final de la pagina
+- Section main con titulo + imagen de fondo
+= Boton para cambiar el idioma
+
+Estilos:
+
+- #0A2E36
+- #27FB6B
+- #14CC60
+- #036D19
+- #09A129
+
+- #48BEFF
+- #3DFAFF
+- #43C59E
+- #3D7068
+- #14453D

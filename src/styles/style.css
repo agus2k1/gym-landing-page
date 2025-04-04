@@ -1,0 +1,36 @@
+/* FONTS */
+
+.teko-normal {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    background: #0A2E36;
+}
+
+h1 {
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background: linear-gradient(#000000, #0A2E36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 4rem;
+}
