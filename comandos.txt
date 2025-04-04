@@ -1,0 +1,5 @@
+git add .
+
+gti commit -m "Mensaje explicativo del cambio que agrego"
+
+gti push origin main
