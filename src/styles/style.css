@@ -71,6 +71,50 @@ ul {
 .about-us {
     background-color: #4D4D4D;
     height: 100vh;
+    display: flex;
+    gap: 2rem;
+}
+
+.image-box {
+    background-color: #4D4D4D;
+    height: 100%;
+    width: 50%;
+    
+}
+
+.text-box {
+    background-color: #171717;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.title-about-us {
+    color: rgb(239, 232, 232);
+    font-size: 32px;
+    padding-top: 5rem;
+}
+
+.text-about-us {
+    color: rgb(241, 233, 233);
+    font-size: 20px;
+    margin-top: 2rem;
+    padding-top: 1%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.image-gruop {
+    height: 80%;
+    width: 70%;
+    margin-top: 6rem;
+    margin-left: 9rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    
 }
 
 .color1 { background-color: #0A0A0A; width: 20px; height: 20px; display: inline-block; }
