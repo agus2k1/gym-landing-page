@@ -4,7 +4,8 @@ Componentes:
 - Menu de navegacion superior
 - Formulario al final de la pagina
 - Section main con titulo + imagen de fondo
-= Boton para cambiar el idioma
+= Boton para cambiar el idioma con sombras y estilos
+- Agregar box-icons de redes
 
 Estilos:
 
