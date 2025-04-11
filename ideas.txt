@@ -7,6 +7,14 @@ Componentes:
 = Boton para cambiar el idioma con sombras y estilos
 - Agregar box-icons de redes
 
+- ¿Quienes somos? Todo empezó con un grupo de amigos, una pasión por los fierros y una idea clara: hacer del entrenamiento un estilo de vida real.
+            Nos conocimos entre barras, discos y dias duros de gimnasio. Entrenar no es solo una rutina, es parte de quienes somos.
+            Después de años compartiendo esa energía, decidimos abrir un espacio donde esa pasión se respire en cada rincón.
+            
+            Así nació nuestro gimnasio: un lugar con alma, actitud y cero excusas.
+            Acá no hay poses. Hay ganas, esfuerzo y comunidad.
+            Porque creemos que no se trata solo de levantar peso, sino de levantar la mejor versión de cada uno.
+
 Estilos:
 
 - #0A2E36
