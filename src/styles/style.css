@@ -5,16 +5,30 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-  }
+}
+
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
 
 body {
     margin: 0;
-    background: #0A2E36;
+    background: #4D4D4D;
 }
 
-h1 {
-    color: white;
+.title {
+    color: transparent;
+    align-self: center;
+    text-align: center;
+    font-size: 3rem;
+    -webkit-text-stroke: 0.5px white;
 
+    .word {
+        color: #1E90FF;
+        -webkit-text-stroke: 0.5px #1E90FF;
+    }
 }
 
 ul {
@@ -28,9 +42,30 @@ ul {
     align-items: center;
     padding: 1rem 2rem;
     color: white;
+    height: 8vh;
 }
 
 .navbar-items {
     display: flex;
     gap: 4rem;
 }
+
+.hero {
+    background-image: url(../public/bg-img-4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* filter: blur(10px); */
+    /* background-size: 100% 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #0A0A0A; */
+    height: 87vh;
+}
+
+.color1 { background-color: #0A0A0A; width: 20px; height: 20px; display: inline-block; }
+.color2 { background-color: #4D4D4D; width: 20px; height: 20px; display: inline-block; }
+.color3 { background-color: #C0C0C0; width: 20px; height: 20px; display: inline-block; }
+.color4 { background-color: #1E90FF; width: 20px; height: 20px; display: inline-block; }
+.color5 { background-color: #F5F5F5; width: 20px; height: 20px; display: inline-block; border: 1px solid #ccc; }
