@@ -94,17 +94,18 @@ ul {
     color: rgb(239, 232, 232);
     font-size: 32px;
     padding-top: 5rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 .text-about-us {
     color: rgb(241, 233, 233);
     font-size: 20px;
     margin-top: 2rem;
-    padding-top: 1%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: 3rem;
     text-align: justify;
     line-height: 1.5;
+    font-weight: 300;
 }
 
 .image-gruop {
@@ -117,6 +118,46 @@ ul {
     
 }
 
+.contact-us {
+    background-color: 4D4D4D;
+}
+
+.form-contact-us-box {
+    background-color: white;
+    height: 100%;
+    width: 50%; 
+}
+
+.title-contact-us {
+    margin: 1rem;
+    font-size: 24px;
+    color:  black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-contact-us {
+    color: black;
+    margin-left: 10px;
+
+}
+
+
+.input-contact-us {
+    background-color: black;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.button-contact-us {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
 .color1 { background-color: #0A0A0A; width: 20px; height: 20px; display: inline-block; }
 .color2 { background-color: #4D4D4D; width: 20px; height: 20px; display: inline-block; }
 .color3 { background-color: #C0C0C0; width: 20px; height: 20px; display: inline-block; }
