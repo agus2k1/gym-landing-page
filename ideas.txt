@@ -28,3 +28,15 @@ Estilos:
 - #43C59E
 - #3D7068
 - #14453D
+
+Titulo principal: Texto con bordes blancos y transparente por dentro / abajo texto en blanco con palabras mas importantes (Algun detalle con el color principal de la pagina)
+
+Secciones: cardio, crossfit, bodybuilding, functional, etc
+
+Dos imagenes pegadas y separadas por un poco de espacio, una mas arriba y otra mas abajo
+
+imc index
+
+seccion reseñas
+
+Al hacer hover en las palabras del navbar transicionan a un icono

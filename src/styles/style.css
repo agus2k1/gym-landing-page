@@ -24,6 +24,11 @@ ul {
     list-style: none;
 }
 
+.logo {
+    width: 5rem;
+    height: 5rem;
+}
+
 .navbar {
     position: absolute;
     background: #0A0A0A;
@@ -49,8 +54,8 @@ ul {
     -webkit-text-stroke: 0.5px white;
 
     .word {
-        color: #1E90FF;
-        -webkit-text-stroke: 0.5px #1E90FF;
+        color: #2678d6;
+        -webkit-text-stroke: 0.5px #2678d6;
     }
 }
 
@@ -118,46 +123,35 @@ ul {
     
 }
 
-.contact-us {
-    background-color: 4D4D4D;
-}
-
-.form-contact-us-box {
-    background-color: white;
-    height: 100%;
-    width: 50%; 
-}
-
-.title-contact-us {
-    margin: 1rem;
-    font-size: 24px;
-    color:  black;
-    font-size: 20px;
-    text-align: center;
-}
-
-.text-contact-us {
-    color: black;
-    margin-left: 10px;
-
-}
-
-
-.input-contact-us {
-    background-color: black;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.button-contact-us {
-    background-color: black;
-    color: white;
-    padding: 10px;
+.pricing {
+    background-color: #0A0A0A;
+    height: 100vh;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
+
+.card {
+    background-color: #C0C0C0;
+    height: 27rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+
+    .card-title {
+        font-size: 1.8rem;
+        padding-top: 2rem;
+    }
+
+    .card-image {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
 .color1 { background-color: #0A0A0A; width: 20px; height: 20px; display: inline-block; }
 .color2 { background-color: #4D4D4D; width: 20px; height: 20px; display: inline-block; }
 .color3 { background-color: #C0C0C0; width: 20px; height: 20px; display: inline-block; }
