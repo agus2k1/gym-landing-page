@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body class="special-gothic-expanded-one-regular">
@@ -17,10 +17,11 @@
             <li><a class="item" href="./index.html">Inicio</a></li>
             <li><a class="item" href="#about-us">Sobre nosotros</a></li>
             <li><a class="item" href="./pricing.html">Planes</a></li>
-            <li><a class="item" href="./index.html">Contacto</a></li>
+            <li><a class="item" href="#faq">Consultas</a></li>
+            <li><a class="item" href="./login/login.html"><img class="login-icon" src="../public/login-icon.svg" alt="iniciar sesion"></a></li>
         </ul>
     </nav>
-    <section class="hero">
+    <section class="hero" id="hero">
         <h1 class="title">
             FORJA TU FISICO<br>
             <span class="word">MOLDEA</span> TU <span class="word">MENTE</span>
@@ -34,67 +35,68 @@
         
         <div class="text-box">
             <h2 class="title-about-us">Sobre Nosotros</h2>
-            <p class="text-about-us">Todo empezó con un grupo de amigos, una pasión por los fierros y una idea clara: hacer del entrenamiento un estilo de vida real.
+            <p class="text-about-us work-sans-400">Todo empezó con un grupo de amigos, una pasión por el bodybuilding y una idea clara: hacer del entrenamiento un estilo de vida real.
                 Nos conocimos entre barras, discos y dias duros de gimnasio. Entrenar no es solo una rutina, es parte de quienes somos.<br>
                 Después de años compartiendo esa energía, decidimos abrir un espacio donde esa pasión se respire en cada rincón.
                 
                 Así nació nuestro gimnasio: un lugar con alma, actitud y cero excusas.<br>
                 Acá no hay poses. Hay ganas, esfuerzo y comunidad.
-                Porque creemos que no se trata solo de levantar peso, sino de levantar la mejor versión de cada uno.</p>
+                Porque creemos que no se trata solo de levantar peso, sino de crear la mejor versión de cada uno.</p>
         </div>
 
     </section>
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div>
             <h1 class="pricing-title">Nuestros Planes</h1>
-            <!-- <h2 class="pricing-title">Selecciona uno para comenzar</h2> -->
         </div>
         <div class="cards">
             <div class="card">
                 <span class="card-title">BASICO</span>
-                <!-- <img class="card-image" src="../public/bronze-dumbell2.svg" alt="logo mancuerna"> -->
-                <div class="card-list teko-normal">
+                <div class="card-list work-sans-200">
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Sala de musculacion/cardio</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">App Nutricional</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
-                        <p class="card-description">Locker diario incluido</p>
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
+                        <p class="card-description">Clases personalizadas</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
-                        <p class="card-description">Rutinas personalizadas</p>
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
+                        <p class="card-description">Limite de 3 dias a la semana</p>
                     </span>
                 </div>
                 <a href="./pricing.html" class="card-button">ASOCIATE</a>
             </div>
             <div class="card">
                 <span class="card-title">ANUAL</span>
-                <!-- <img class="card-image" src="../public/gold-dumbell.svg" alt="logo mancuerna"> -->
-                <div class="card-list teko-normal">
+                <div class="card-list work-sans-200">
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Beneficios de planes anteriores</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Regalo de bienvenida</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Evaluación física trimestral</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
-                        <p class="card-description">Rutinas personalizadas</p>
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
+                        <p class="card-description">Pase libre para dos amigos</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
+                        <p class="card-description">Descuentos en merch oficial</p>
+                    </span>
+                    <span class="card-item">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Descuentos en suplementos</p>
                     </span>
                 </div>
@@ -102,22 +104,21 @@
             </div>
             <div class="card">
                 <span class="card-title">MENSUAL</span>
-                <!-- <img class="card-image" src="../public/silver-dumbell.svg" alt="logo mancuerna"> -->
-                <div class="card-list teko-normal">
+                <div class="card-list work-sans-200">
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
-                        <p class="card-description">Beneficios del plan basico</p>
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
+                        <p class="card-description">Beneficios del plan Basico</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
-                        <p class="card-description">App Nutricional</p>
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
+                        <p class="card-description">Sin limite semanal</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Locker diario incluido</p>
                     </span>
                     <span class="card-item">
-                        <img class="card-tick" src="../public/tick-circle-svg1.svg" alt="icono tick">
+                        <img class="card-tick" src="../public/tick-circle.svg" alt="icono tick">
                         <p class="card-description">Rutinas personalizadas</p>
                     </span>
                 </div>
@@ -125,15 +126,60 @@
             </div>
         </div>
     </section>
+    <section class="faq-section" id="faq">
+        <div class="faq-container">
+          <div class="faq-title">
+            <h2><span>PREGUNTAS</span><br>FRECUENTES</h2>
+          </div>
+          <div class="faq-items">
+            <div class="faq-item">
+                <button class="faq-question work-sans-400">¿Qué necesito para comenzar a entrenar en el gimnasio?</button>
+                <div class="faq-answer">
+                  <p>Solo tenés que venir con ropa cómoda, una botella de agua, toalla personal y muchas ganas de entrenar. ¡Nosotros te ayudamos con el resto!</p>
+                </div>
+            </div>
+            <div class="faq-item work-sans-400">
+              <button class="faq-question work-sans-400">¿Necesito el apto médico para comenzar a entrenar?</button>
+              <div class="faq-answer">
+                <p>Sí, necesitás presentarlo para comenzar con tus entrenamientos.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question work-sans-400">¿Necesito reservar turno para entrenar?</button>
+              <div class="faq-answer">
+                <p>No, actualmente no es necesario reservar turno para el entrenamiento libre. Solo para clases grupales con cupo limitado.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question work-sans-400">¿Puedo cambiar mi plan si ya estoy inscripto?</button>
+                <div class="faq-answer">
+                  <p>Sí, podés cambiar de plan en cualquier momento. Solo acercate a recepción o escribinos por WhatsApp y te lo gestionamos.</p>
+                </div>
+              </div>
+            <div class="faq-item">
+                <button class="faq-question work-sans-400">¿El gimnasio abre los fines de semana y feriados?</button>
+                <div class="faq-answer">
+                  <p>Si, abrimos los sábados y feriados con horario reducido. Los domingos permanecemos cerrados para mantenimiento.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question work-sans-400">¿Cuáles son los medios de pago aceptados?</button>
+                <div class="faq-answer">
+                  <p>Aceptamos efectivo, transferencias, tarjetas de crédito/débito y también podés pagar por Mercado Pago.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>      
     <footer class="footer">
         <div class="footer-container">
           <div class="footer-left">
             <h2 class="footer-title">APEX GYM</h2>
             <nav class="footer-nav">
-              <a href="#home">Inicio</a>
-              <a href="#plans">Planes</a>
-              <a href="#about">Nosotros</a>
-              <a href="#contact">Contacto</a>
+              <a href="#hero">Inicio</a>
+              <a href="#pricing">Planes</a>
+              <a href="#about-us">Nosotros</a>
+              <a href="#faq">Consultas</a>
             </nav>
           </div>
       

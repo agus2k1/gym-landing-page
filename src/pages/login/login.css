@@ -1,0 +1,105 @@
+.work-sans-200 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.work-sans-400 {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../../public/login-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.image-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.logo {
+  width: 30rem;
+  height: 30rem;
+}
+
+.text-box {
+  width: 50%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 70px 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  width: 70%;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+.boton {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #0682ff;
+}
