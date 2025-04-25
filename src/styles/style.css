@@ -363,7 +363,7 @@ a {
     align-items: flex-end;
     width: 100%;
     flex-wrap: wrap;
-    padding: 1rem 2rem;
+    padding: 5rem 2rem 1rem 2rem;
 }
   
 .footer-left {
