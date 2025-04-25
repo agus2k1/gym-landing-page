@@ -174,7 +174,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     gap: 2rem;
 }
 
@@ -252,7 +251,6 @@ a {
 }
 
 .card-description {
-    /* font-size: 1.1rem; */
     color: #F5F5F5;
     margin: 0;
     font-weight: 400;
