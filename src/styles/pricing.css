@@ -190,3 +190,84 @@ p {
     background-color: #F5F5F5;
     color: #0A0A0A;
 }
+
+@media (max-width: 767px) {
+  section {
+    padding: 0 1.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .navbar-items {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .pricing {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .card {
+    max-width: 90%;
+    padding: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+
+  .card-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  section {
+    padding: 0 2rem;
+  }
+
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .navbar-items {
+    gap: 2rem;
+  }
+
+  .pricing {
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 300px;
+    padding: 2.5rem 2rem;
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+}

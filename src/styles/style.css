@@ -432,3 +432,215 @@ a {
 .color4 { background-color: #1E90FF; width: 20px; height: 20px; display: inline-block; }
 .color5 { background-color: #F5F5F5; width: 20px; height: 20px; display: inline-block; border: 1px solid #ccc; }
 .color6 { background-color: #0682ff; width: 20px; height: 20px; display: inline-block; }
+
+@media (max-width: 767px) {
+  section {
+    padding: 0 1.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .navbar-items {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .title {
+    font-size: 2.5rem !important;
+    -webkit-text-stroke-width: 0.3px !important;
+  }
+
+  .hero {
+    height: auto;
+    padding: 4rem 1rem;
+  }
+
+  .about-us {
+    flex-direction: column;
+    height: auto;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+  }
+
+  .image-box,
+  .text-box {
+    width: 100%;
+    height: auto;
+  }
+
+  .text-box {
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .image-group,
+  .image-gruop {
+    width: 90%;
+    margin: 1rem auto;
+    height: auto;
+  }
+
+  .pricing {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .pricing-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+
+  .card {
+    max-width: 90%;
+    padding: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .card-price {
+    font-size: 1.2rem;
+  }
+
+  .card-description {
+    font-size: 0.9rem;
+  }
+
+  .card-button {
+    width: 100%;
+  }
+
+  .faq-section {
+    padding: 3rem 1rem;
+  }
+
+  .faq-container {
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .faq-title,
+  .faq-items {
+    flex: 1 1 100%;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1rem 1rem 1rem;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  section {
+    padding: 0 2rem;
+  }
+
+  .navbar {
+    padding: 1rem 2rem;
+  }
+
+  .navbar-items {
+    gap: 2rem;
+  }
+
+  .logo {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .title {
+    font-size: 3rem !important;
+    -webkit-text-stroke-width: 0.4px !important;
+  }
+
+  .about-us {
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+
+  .image-box,
+  .text-box {
+    width: 50%;
+  }
+
+  .text-box {
+    padding: 3rem 2rem;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .pricing {
+    padding: 2rem 2rem;
+  }
+
+  .pricing-title {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+
+  .cards {
+    gap: 2.5rem;
+    padding: 1rem 1rem;
+  }
+
+  .card {
+    max-width: 320px;
+    padding: 3rem 2rem;
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+  }
+
+  .card-price {
+    font-size: 1.3rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+
+  .card-button {
+    width: auto;
+  }
+
+  .faq-section {
+    padding: 4rem 2rem;
+  }
+
+  .faq-container {
+    max-width: 100%;
+  }
+
+  .footer-container {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+}

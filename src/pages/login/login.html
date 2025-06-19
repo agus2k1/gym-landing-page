@@ -17,15 +17,18 @@
     <div class="text-box">
       <h4 class="work-sans-200">Te damos la bienvenida</h6>
       <h1>Inicia sesion</h4>
-      <form class="work-sans-200">
+      <form id="login-form" class="work-sans-200">
         <div class="input-group">
           <label for="nombre">Nombre</label>
           <input type="text" id="nombre" name="nombre">
         </div>
 
-        <div class="input-group">
+        <div class="input-group password-group">
           <label for="clave">Contraseña</label>
-          <input type="password" id="clave" name="clave">
+          <div class="input-wrapper">
+            <input type="password" id="clave" />
+            <button type="button" id="toggle-clave" class="ojo">👁️</button>
+          </div>
         </div>
 
         <button type="submit" class="boton special-gothic-expanded-one-regular">INGRESAR</button>
@@ -35,6 +38,7 @@
       <span><img class="logo" src="../../public/logo2.png" alt="gimnasio apex"></span>
     </div>
   </section>
+  <script src="../../javascript/login.js"></script>
 </body>
 </html>
   
